@@ -109,7 +109,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\app.js" />
+    <Content Include="content\css\bootstrap.min.css" />
+    <Content Include="content\css\loading-bar.min.css" />
+    <Content Include="content\css\site.css" />
+    <Content Include="content\css\toaster.min.css" />
     <Content Include="Global.asax" />
+    <Content Include="index.html" />
+    <Content Include="scripts\angular-animate.min.js" />
+    <Content Include="scripts\angular-resource.min.js" />
+    <Content Include="scripts\angular-route.min.js" />
+    <Content Include="scripts\angular.min.js" />
+    <Content Include="scripts\loading-bar.min.js" />
+    <Content Include="scripts\toaster.js" />
+    <Content Include="scripts\ui-bootstrap-tpls-2.5.0.min.js" />
+    <Content Include="scripts\ui-bootstrap.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -132,7 +146,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="app\controllers\" />
+    <Folder Include="app\directives\" />
+    <Folder Include="app\filters\" />
+    <Folder Include="app\services\" />
+    <Folder Include="app\views\" />
     <Folder Include="App_Data\" />
+    <Folder Include="content\fonts\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
