@@ -1,4 +1,4 @@
-﻿<html>
+﻿<html data-ng-app="FoursquareApp">
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
     <title>Explore Foursquare</title>
@@ -38,6 +38,7 @@
             Created with Taiseer Joudeh blog tutorial.
         </footer>
     </div>
+    <div data-ng-view=""></div>
 </body>
 </html>
 <!-- 3rd party libraries -->
@@ -49,3 +50,9 @@
 <script src="scripts/ui-bootstrap-tpls-2.5.0.min.js"></script>
 <script src="scripts/toaster.js"></script>
 <script src="scripts/loading-bar.min.js"></script>
+
+<!-- Load app main script -->
+<script src="app/app.js"></script>
+
+<!-- Load controllers -->
+<script type="text/javascript" src="app/controllers/placesExplorerController.js"></script>
